@@ -1,0 +1,351 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RSC_plugin\n"
+"POT-Creation-Date: 2015-09-26 00:35+0300\n"
+"PO-Revision-Date: 2015-09-26 00:35+0300\n"
+"Last-Translator: Nazar <netmaster87@mail.ru>\n"
+"Language-Team: Nazar <netmaster87@mail.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/DlApiClass.php:10
+msgid "Business Lines"
+msgstr "Деловые Линии"
+
+#: inc/DlApiClass.php:25
+msgid "Track my order by DL"
+msgstr "Отследить груз через Деловые Линии"
+
+#: inc/DlApiClass.php:27 inc/JdeApiClass.php:24
+msgid "Input invoice number"
+msgstr "Введите Номер Декларации"
+
+#: inc/DlApiClass.php:28 inc/JdeApiClass.php:25
+msgid "Invoice Number"
+msgstr "Номер Декларации"
+
+#: inc/DlApiClass.php:30 inc/JdeApiClass.php:29
+#: russian-shipment-companies.php:88
+msgid "Submit"
+msgstr "Отправить"
+
+#: inc/DlApiClass.php:42
+msgid "For test, use invoice id=14-00213136738"
+msgstr "Для теста используйте номер декларации  id=14-00213136738"
+
+#: inc/DlApiClass.php:43
+msgid "Shortcode track orders [check_dl]"
+msgstr "Шорткод для вывода формы [check_dl]"
+
+#: inc/DlApiClass.php:45 inc/JdeApiClass.php:44
+msgid "Settings for "
+msgstr "Настройки для "
+
+#: inc/DlApiClass.php:46
+msgid "DL App ID"
+msgstr "ID приложения"
+
+#: inc/DlApiClass.php:48
+msgid "DL Request Url"
+msgstr "Адрес адрес сервера"
+
+#: inc/DlApiClass.php:79
+msgid "Invoice Status: "
+msgstr "Статус груза"
+
+#: inc/DlApiClass.php:81
+msgid "Empty invoice number!"
+msgstr "Пустой номер накладной!"
+
+#: inc/DlApiClass.php:88
+msgid "Receiver info: "
+msgstr "Получатель:"
+
+#: inc/DlApiClass.php:90 inc/DlApiClass.php:97
+msgid "Terminal: "
+msgstr "Терминал:"
+
+#: inc/DlApiClass.php:91 inc/DlApiClass.php:98 inc/JdeApiClass.php:247
+msgid "City: "
+msgstr "Город:"
+
+#: inc/DlApiClass.php:92 inc/DlApiClass.php:99
+msgid "Address: "
+msgstr "Адрес:"
+
+#: inc/DlApiClass.php:95
+msgid "Giveout info: "
+msgstr "Отправитель:"
+
+#: inc/JdeApiClass.php:10
+msgid "Russian Railway Expedition"
+msgstr "ЖелДорЭкспедиция"
+
+#: inc/JdeApiClass.php:22
+msgid "Track my order by JDE"
+msgstr "Отследить груз через ЖелДорЭкспедиция"
+
+#: inc/JdeApiClass.php:26
+msgid "Input invoice pass"
+msgstr "Пароль декларации"
+
+#: inc/JdeApiClass.php:41
+msgid "For test, use invoice id=0000000000000457 and activate Test Mode"
+msgstr ""
+"Для проверки работы используйте id=0000000000000457 и активируйте Тест Режим"
+
+#: inc/JdeApiClass.php:42
+msgid "Shortcode for track orders [check_jde]"
+msgstr "Шорткод для вывода формы [check_jde]"
+
+#: inc/JdeApiClass.php:45
+msgid "JDE Server Url"
+msgstr "Адрес сервера"
+
+#: inc/JdeApiClass.php:47
+msgid "JDE User Id"
+msgstr "ID пользователя"
+
+#: inc/JdeApiClass.php:49
+msgid "JDE Token"
+msgstr "Token пользователя"
+
+#: inc/JdeApiClass.php:52
+msgid "Activate Test Mode "
+msgstr "Активировать тест режим "
+
+#: inc/JdeApiClass.php:55
+msgid "Select blocks for showing: "
+msgstr "Какие блоки показывать:"
+
+#: inc/JdeApiClass.php:58
+msgid "Show Cargo Path "
+msgstr "Показать путь груза"
+
+#: inc/JdeApiClass.php:60
+msgid "Sender Info "
+msgstr "Инфо об отправителе"
+
+#: inc/JdeApiClass.php:62
+msgid "Receiver Info "
+msgstr "Инфо о получателе"
+
+#: inc/JdeApiClass.php:64
+msgid "Cargo info "
+msgstr "Инфо о грузе"
+
+#: inc/JdeApiClass.php:106 inc/JdeApiClass.php:110
+msgid "Error: "
+msgstr "Ошибка:"
+
+#: inc/JdeApiClass.php:106
+msgid " Check host settings, seems that closed port 8000"
+msgstr "Проверте настройки хоста, возможно порт 8000 закрыт"
+
+#: inc/JdeApiClass.php:126
+msgid "Sender info:"
+msgstr "Инфо об отправителе"
+
+#: inc/JdeApiClass.php:129 inc/JdeApiClass.php:153 inc/JdeApiClass.php:224
+msgid "Branch Number: "
+msgstr "Номер склада:"
+
+#: inc/JdeApiClass.php:132 inc/JdeApiClass.php:156
+msgid "Branch Title: "
+msgstr "Название склада:"
+
+#: inc/JdeApiClass.php:135
+msgid "Sender: "
+msgstr "Отправитель:"
+
+#: inc/JdeApiClass.php:138 inc/JdeApiClass.php:162
+msgid "Bailee: "
+msgstr "Хранение:"
+
+#: inc/JdeApiClass.php:141 inc/JdeApiClass.php:165
+msgid "Phone: "
+msgstr "Телефон:"
+
+#: inc/JdeApiClass.php:144 inc/JdeApiClass.php:168
+msgid "Email: "
+msgstr "Email: "
+
+#: inc/JdeApiClass.php:150
+msgid "Receiver info:"
+msgstr "Инфо о получателе:"
+
+#: inc/JdeApiClass.php:159
+msgid "Receiver: "
+msgstr "Получатель:"
+
+#: inc/JdeApiClass.php:174
+msgid "Cargo info:"
+msgstr "Инфо о грузе:"
+
+#: inc/JdeApiClass.php:178
+msgid "Code: "
+msgstr "Код:"
+
+#: inc/JdeApiClass.php:181
+msgid "Amount of Places: "
+msgstr "Кол-во мест:"
+
+#: inc/JdeApiClass.php:184
+msgid "Weight: "
+msgstr "Вес:"
+
+#: inc/JdeApiClass.php:187
+msgid "Volume: "
+msgstr "Объем:"
+
+#: inc/JdeApiClass.php:190 inc/JdeApiClass.php:227
+msgid "Description: "
+msgstr "Описание:"
+
+#: inc/JdeApiClass.php:193
+msgid "Order Number: "
+msgstr "Номер заказа:"
+
+#: inc/JdeApiClass.php:197 inc/JdeApiClass.php:245
+msgid "Status: "
+msgstr "Статус:"
+
+#: inc/JdeApiClass.php:200
+msgid "Take On Stock: "
+msgstr "Принят на хр.:"
+
+#: inc/JdeApiClass.php:203
+msgid "Sending Date Time: "
+msgstr "Время отправки:"
+
+#: inc/JdeApiClass.php:206
+msgid "Arrival Date Time: "
+msgstr "Время прибытия:"
+
+#: inc/JdeApiClass.php:209
+msgid "Give Out Date Time: "
+msgstr "Время получения:"
+
+#: inc/JdeApiClass.php:212
+msgid "Arrival Plan Date Time: "
+msgstr "Ориент. время прибытия:"
+
+#: inc/JdeApiClass.php:216
+msgid "Sum: "
+msgstr "Сумма:"
+
+#: inc/JdeApiClass.php:219
+msgid "Discount: "
+msgstr "Дисконт:"
+
+#: inc/JdeApiClass.php:230
+msgid "Price: "
+msgstr "Цена:"
+
+#: inc/JdeApiClass.php:238
+msgid "Show Cargo Path: "
+msgstr "Показать путь груза:"
+
+#: inc/JdeApiClass.php:246
+msgid "Date: "
+msgstr "Дата:"
+
+#: inc/JdeApiClass.php:251
+msgid "Cargo way is empty"
+msgstr "Путь груза отсутствует"
+
+#: inc/UserClass.php:12
+msgid "User Capabilities"
+msgstr "Возможности пользователя"
+
+#: inc/UserClass.php:35
+msgid "Welcome "
+msgstr "Привет "
+
+#: inc/UserClass.php:44
+msgid "This user already exist"
+msgstr "Такой пользователь уже зарегистрирован"
+
+#: inc/UserClass.php:45
+msgid "This Email already exist"
+msgstr "Такой Email уже зарегистрирован"
+
+#: inc/UserClass.php:46
+msgid "Invalid Email"
+msgstr "Неверный Email"
+
+#: inc/UserClass.php:47
+msgid "Register almost done, check you mail."
+msgstr "Регистрация почти закончена, проверте почту."
+
+#: inc/UserClass.php:54
+msgid "You logged out"
+msgstr "Вы вышли из системы"
+
+#: inc/UserClass.php:55
+msgid "Wrong login or password"
+msgstr "Неверный логин или пароль"
+
+#: inc/UserClass.php:85
+msgid "Login"
+msgstr "Вход"
+
+#: inc/UserClass.php:86
+msgid "Register"
+msgstr "Регистрация"
+
+#: inc/UserClass.php:87
+msgid "Logged Out"
+msgstr "Выход"
+
+#: inc/UserClass.php:107 inc/UserClass.php:162
+msgid "User Name"
+msgstr "Имя пользователя"
+
+#: inc/UserClass.php:108
+msgid "Password"
+msgstr "Пароль"
+
+#: inc/UserClass.php:109
+msgid "Remember Me"
+msgstr "Запомнить меня"
+
+#: inc/UserClass.php:110
+msgid "LogIn"
+msgstr "Войти"
+
+#: inc/UserClass.php:153
+msgid "A password will be e-mailed to you."
+msgstr "Пароль будет отправлен на почту"
+
+#: inc/UserClass.php:166
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: russian-shipment-companies.php:76
+msgid "Delivery Plugin Settings"
+msgstr "Настройки плагина"
+
+#: russian-shipment-companies.php:129
+msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
+msgstr "<strong>ERROR</strong>: Веверный логин или пароль."
+
+#: russian-shipment-companies.php:163
+msgid "Check out my cargos by invoice number"
+msgstr "Проверить мой груз по номеру накладной"
+
+#: russian-shipment-companies.php:171
+msgid "Client"
+msgstr "Клиент"
+
+#: russian-shipment-companies.php:212
+msgid "RSC Adjustments"
+msgstr "RSC Настройки"
